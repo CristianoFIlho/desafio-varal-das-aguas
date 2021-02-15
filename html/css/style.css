@@ -45,7 +45,7 @@ height: 30vw;
 
 #container1{
     width: 80vw;
-    height: 60vw;
+    height: 90vw;
     background-color: white;  
     position: relative;
     top: -70px;
@@ -58,12 +58,16 @@ height: 30vw;
 }
 
 #rodape{
-    padding: 5px;
+    padding: 4px;
     margin: 70px;
+    height: auto;  
     margin-right: -10px;
     text-align: center;
     background-color: rgb(27, 84, 111);
     list-style: none;
+    position: relative;
+    top: -150px;
+    
 }
 
 #inema{
@@ -84,26 +88,26 @@ height: 30vw;
     height: 20vw;
 }
 
-.bluecard {
-    width: 250px;
-    height: 250px;
+.bluecard, h, p{
+    width: 20vw;
+    height: 25vw;
     background-color:  rgb(27, 84, 111);
     position: relative;
-    top: -75px;
-    left: 300px;
-     
-    
-    
+    color: rgb(43,132,174);
+    top: -50px;
+    left: 120px;    
+    text-align: center;
 }
 
-.bluecard2 {
+
+
+.bluecard2, h {
     width: 200px;
     height: 45px;
     background-color:  rgb(27, 84, 111);
+    color: white; 
     position: relative;
+    text-align: center;   
     top: 0px;
-    left: 300px;
-     
-    
-    
+    left: 120px;   
 }
