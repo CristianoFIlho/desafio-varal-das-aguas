@@ -83,3 +83,27 @@ height: 30vw;
     width: 20vw;
     height: 20vw;
 }
+
+.bluecard {
+    width: 250px;
+    height: 250px;
+    background-color:  rgb(27, 84, 111);
+    position: relative;
+    top: -75px;
+    left: 300px;
+     
+    
+    
+}
+
+.bluecard2 {
+    width: 200px;
+    height: 45px;
+    background-color:  rgb(27, 84, 111);
+    position: relative;
+    top: 0px;
+    left: 300px;
+     
+    
+    
+}
