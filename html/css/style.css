@@ -1,0 +1,33 @@
+#menu ul {
+    padding: 15px;
+    margin:-10px;
+    text-align: center;
+    background-color: rgb(27, 84, 111);
+    list-style:none;
+}
+
+#menu ul li { 
+    display: inline;
+    color: rgb(46,142,188);
+ }
+
+#menu ul li a {
+    padding: 2px 20px;  
+    display: inline-block;
+
+    
+    background-color:rgb(27, 84, 111);
+    color: rgb(46, 142, 188);
+    text-decoration: none;    
+    
+}
+
+#menu ul li a:hover {
+    background-color: rgb(27, 84, 111);
+    color: #6D6D6D;
+    border-bottom:3px solid #f8f6f6;
+}
+
+#menu li{
+ 
+}
