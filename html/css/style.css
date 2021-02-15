@@ -39,23 +39,21 @@ html, body{
 #imagem img{
 width: 100vw;
 height: 30vw;
+
   
 }
 
-#container{
+#container1{
     width: 80vw;
     height: 60vw;
-    background-color: white;
- 
-
-  
-
-
-    
+    background-color: white;  
+    position: relative;
+    top: -70px;
 }
 
 .container{
     position: relative;
+    
 
 }
 
