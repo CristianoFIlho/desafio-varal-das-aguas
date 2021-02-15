@@ -28,7 +28,10 @@
     border-bottom:3px solid #f8f6f6;
 }
 
-body{
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
     margin: 0px;
     background-color: rgb(250,239,222);
 }
@@ -36,6 +39,49 @@ body{
 #imagem img{
 width: 100vw;
 height: 30vw;
+  
+}
 
-        
+#container{
+    width: 80vw;
+    height: 60vw;
+    background-color: white;
+ 
+
+  
+
+
+    
+}
+
+.container{
+    position: relative;
+
+}
+
+#rodape{
+    padding: 5px;
+    margin: 70px;
+    margin-right: -10px;
+    text-align: center;
+    background-color: rgb(27, 84, 111);
+    list-style: none;
+}
+
+#inema{
+    background-color: white;  
+    position:absolute;
+    bottom:0;
+    width:100%;
+  
+}
+
+#inema img{
+    width:20vw;
+    height: 20vw;
+}
+
+#pedding{
+    width: 20vw;
+    height: 20vw;
 }
