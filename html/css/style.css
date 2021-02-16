@@ -14,7 +14,6 @@
 #menu ul li a {
   padding: 2px 20px;
   display: inline-block;
-
   background-color: rgb(27, 84, 111);
   color: rgb(46, 142, 188);
   text-decoration: none;
@@ -101,7 +100,7 @@ h {
   position: relative;
   color: rgb(43, 132, 174) !important;
   top: -200px;
-  left: 120px;
+  left: 350px;
   text-align: center;
 }
 
@@ -121,7 +120,7 @@ h {
   text-align: center;
 
   top: -150px;
-  left: 120px;
+  left: 350px;
 }
 
 .objetivos {
@@ -135,10 +134,12 @@ h {
   text-align: center;
   color: rgb(27, 84, 111);
 }
-
-.regras,
+.regras #regras,
 li {
-  color: black;
+  text-align: left !important;
+  margin: 10px !important;
+  margin-left: 270px !important;
+  font-size: 20px;
 }
 
 .sobre {
@@ -197,4 +198,7 @@ a:hover {
 a:active {
   text-decoration: none;
   color: green;
+}
+
+.nav {
 }
