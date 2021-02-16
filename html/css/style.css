@@ -65,7 +65,7 @@ p {
 
 #rodape {
   padding: 4px;
-  margin: 70px;
+  margin: 95px;
   height: 100%;
   margin-right: 0px;
   margin-left: 0px;
@@ -100,14 +100,14 @@ h {
   background-color: rgb(27, 84, 111);
   position: relative;
   color: rgb(43, 132, 174) !important;
-  top: -75px;
+  top: -200px;
   left: 120px;
   text-align: center;
 }
 
 .bluecard,
 p {
-  color: white;
+  color: black;
 }
 
 .bluecard2,
@@ -120,7 +120,7 @@ h {
 
   text-align: center;
 
-  top: 0px;
+  top: -150px;
   left: 120px;
 }
 
@@ -158,8 +158,9 @@ h {
   border-style: solid;
   display: inline-block;
   position: absolute;
-  top: 10px;
-  left: 500px;
+  top: 50px;
+  left: 37%;
+  right: 37%;
   border-radius: 20px;
   border-top: rgb(27, 84, 111);
   border-bottom: rgb(27, 84, 111);
@@ -171,8 +172,11 @@ h {
   border-radius: 20px;
 }
 
-p {
-  color: black !important;
+p,
+h1,
+a,
+span {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
@@ -182,7 +186,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
 a:hover {
