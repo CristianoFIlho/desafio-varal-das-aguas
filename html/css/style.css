@@ -46,13 +46,12 @@ body {
   background-color: white;
   position: relative;
   top: -70px;
+  bottom: 40px;
 }
 
 .container1,
-h1 {
+h2 {
   color: rgb(27, 84, 111);
-  position: absolute;
-  left: 80px;
 }
 
 .container1,
@@ -74,13 +73,13 @@ p {
   background-color: rgb(27, 84, 111);
   list-style: none;
   position: relative;
-  top: 65px;
+  top: 25vw;
 }
 
 #inema {
   background-color: white;
   position: absolute;
-  bottom: 0;
+  bottom: 30;
   width: 100%;
 }
 
@@ -118,7 +117,9 @@ h {
   background-color: rgb(27, 84, 111);
   color: white;
   position: relative;
+
   text-align: center;
+
   top: 0px;
   left: 120px;
 }
@@ -132,10 +133,17 @@ h {
 h {
   position: relative;
   text-align: center;
+  color: rgb(27, 84, 111);
+}
+
+.regras,
+li {
+  color: black;
 }
 
 .sobre {
   height: 100%;
+  color: rgb(27, 84, 111);
 }
 
 h {
@@ -165,4 +173,24 @@ h {
 
 p {
   color: black !important;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+a:active {
+  text-decoration: none;
+  color: green;
 }
