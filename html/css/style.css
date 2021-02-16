@@ -45,10 +45,20 @@ height: 30vw;
 
 #container1{
     width: 80vw;
-    height: 90vw;
+    height: 100vw;
     background-color: white;  
     position: relative;
     top: -70px;
+}
+
+#container1, h1{
+    color: rgb(27, 84, 111);
+
+}
+
+#container1, p{
+    color: black;
+    
 }
 
 .container{
@@ -88,15 +98,19 @@ height: 30vw;
     height: 20vw;
 }
 
-.bluecard, h, p{
+.bluecard, h{
     width: 20vw;
     height: 25vw;
     background-color:  rgb(27, 84, 111);
     position: relative;
-    color: rgb(43,132,174);
-    top: -50px;
+    color: rgb(43,132,174)! important;
+    top: -75px;
     left: 120px;    
     text-align: center;
+}
+
+.bluecard, p{
+    color: white;
 }
 
 
@@ -110,4 +124,22 @@ height: 30vw;
     text-align: center;   
     top: 0px;
     left: 120px;   
+}
+
+.objetivos{
+    
+}
+
+.regras{
+   
+}
+
+.sobre{
+
+}
+
+h{
+    color: rgb(43,132,174);
+    
+
 }
