@@ -1,145 +1,158 @@
 #menu ul {
-    padding: 15px;
-    margin:-10px;
-    text-align: center;
-    background-color: rgb(27, 84, 111);
-    list-style:none;
+  padding: 15px;
+  margin: -10px;
+  text-align: center;
+  background-color: rgb(27, 84, 111);
+  list-style: none;
 }
 
-#menu ul li { 
-    display: inline;
-    color: rgb(46,142,188);
- }
+#menu ul li {
+  display: inline;
+  color: rgb(46, 142, 188);
+}
 
 #menu ul li a {
-    padding: 2px 20px;  
-    display: inline-block;
+  padding: 2px 20px;
+  display: inline-block;
 
-    
-    background-color:rgb(27, 84, 111);
-    color: rgb(46, 142, 188);
-    text-decoration: none;    
-    
+  background-color: rgb(27, 84, 111);
+  color: rgb(46, 142, 188);
+  text-decoration: none;
 }
 
 #menu ul li a:hover {
-    background-color: rgb(27, 84, 111);
-    color: #6D6D6D;
-    border-bottom:3px solid #f8f6f6;
+  background-color: rgb(27, 84, 111);
+  color: #6d6d6d;
+  border-bottom: 3px solid #f8f6f6;
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    margin: 0px;
-    background-color: rgb(250,239,222);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin: 0px;
+  background-color: rgb(250, 239, 222);
 }
 
-#imagem img{
-width: 100vw;
-height: 30vw;
-
-  
+#imagem img {
+  width: 100vw;
+  height: 30vw;
 }
 
-#container1{
-    width: 80vw;
-    height: 100vw;
-    background-color: white;  
-    position: relative;
-    top: -70px;
+#container1 {
+  width: 80vw;
+  height: 100vw;
+  background-color: white;
+  position: relative;
+  top: -70px;
 }
 
-#container1, h1{
-    color: rgb(27, 84, 111);
-
+#container2 {
+  width: 80vw;
+  height: 100vw;
+  background-color: rgb(175, 22, 22);
+  position: relative;
+  top: 100px;
 }
 
-#container1, p{
-    color: black;
-    
+#container1,
+h1 {
+  color: rgb(27, 84, 111);
 }
 
-.container{
-    position: relative;
-    
-
+#container1,
+p {
+  color: black;
 }
 
-#rodape{
-    padding: 4px;
-    margin: 70px;
-    height: auto;  
-    margin-right: -10px;
-    text-align: center;
-    background-color: rgb(27, 84, 111);
-    list-style: none;
-    position: relative;
-    top: -150px;
-    
+.container {
+  position: relative;
 }
 
-#inema{
-    background-color: white;  
-    position:absolute;
-    bottom:0;
-    width:100%;
-  
+#rodape {
+  padding: 4px;
+  margin: 70px;
+  height: auto;
+  margin-right: -10px;
+  text-align: center;
+  background-color: rgb(27, 84, 111);
+  list-style: none;
+  position: relative;
+  top: -150px;
 }
 
-#inema img{
-    width:20vw;
-    height: 20vw;
+#inema {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-#pedding{
-    width: 20vw;
-    height: 20vw;
+#inema img {
+  width: 20vw;
+  height: 20vw;
 }
 
-.bluecard, h{
-    width: 20vw;
-    height: 25vw;
-    background-color:  rgb(27, 84, 111);
-    position: relative;
-    color: rgb(43,132,174)! important;
-    top: -75px;
-    left: 120px;    
-    text-align: center;
+#pedding {
+  width: 20vw;
+  height: 20vw;
 }
 
-.bluecard, p{
-    color: white;
+.bluecard,
+h {
+  width: 20vw;
+  height: 25vw;
+  background-color: rgb(27, 84, 111);
+  position: relative;
+  color: rgb(43, 132, 174) !important;
+  top: -75px;
+  left: 120px;
+  text-align: center;
 }
 
-
-
-.bluecard2, h {
-    width: 200px;
-    height: 45px;
-    background-color:  rgb(27, 84, 111);
-    color: white; 
-    position: relative;
-    text-align: center;   
-    top: 0px;
-    left: 120px;   
+.bluecard,
+p {
+  color: rgb(0, 0, 0);
 }
 
-.objetivos{
-    
+.bluecard2,
+h {
+  width: 200px;
+  height: 45px;
+  background-color: rgb(27, 84, 111);
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  left: 120px;
 }
 
-.regras{
-   
+.objetivos {
+  width: 200px;
+  height: 45px;
 }
 
-.sobre{
-
+.regras {
 }
 
-h{
-    color: rgb(43,132,174);
-    
+.sobre {
+  height: 100%;
+}
 
+h {
+  color: rgb(43, 132, 174);
+}
+
+.borda {
+  width: 100px;
+  height: 100px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}
+
+#box1 {
+  border-radius: 20px;
 }
