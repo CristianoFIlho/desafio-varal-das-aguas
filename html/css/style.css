@@ -48,20 +48,14 @@ body {
   top: -70px;
 }
 
-#container2 {
-  width: 80vw;
-  height: 100vw;
-  background-color: rgb(175, 22, 22);
-  position: relative;
-  top: 100px;
-}
-
-#container1,
+.container1,
 h1 {
   color: rgb(27, 84, 111);
+  position: absolute;
+  left: 80px;
 }
 
-#container1,
+.container1,
 p {
   color: black;
 }
@@ -73,13 +67,14 @@ p {
 #rodape {
   padding: 4px;
   margin: 70px;
-  height: auto;
-  margin-right: -10px;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
   text-align: center;
   background-color: rgb(27, 84, 111);
   list-style: none;
   position: relative;
-  top: -150px;
+  top: 65px;
 }
 
 #inema {
@@ -113,7 +108,7 @@ h {
 
 .bluecard,
 p {
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .bluecard2,
@@ -133,7 +128,10 @@ h {
   height: 45px;
 }
 
-.regras {
+.regras,
+h {
+  position: relative;
+  text-align: center;
 }
 
 .sobre {
@@ -146,13 +144,13 @@ h {
 
 .borda {
   width: 400px;
-  height: 200px;
+  height: 150px;
   border-width: 5px;
   border-color: white;
   border-style: solid;
   display: inline-block;
   position: absolute;
-  top: 50px;
+  top: 10px;
   left: 500px;
   border-radius: 20px;
   color: rgb(121, 120, 120);
@@ -160,4 +158,8 @@ h {
 
 #box1 {
   border-radius: 20px;
+}
+
+p {
+  color: black !important;
 }
