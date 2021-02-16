@@ -153,6 +153,9 @@ h {
   top: 10px;
   left: 500px;
   border-radius: 20px;
+  border-top: rgb(27, 84, 111);
+  border-bottom: rgb(27, 84, 111);
+
   color: rgb(121, 120, 120);
 }
 
