@@ -203,3 +203,10 @@ a:active {
 .hr-s {
   margin: 80px 80px 80px 80px;
 }
+
+#concurso {
+  position: absolute;
+  margin: 20px;
+  padding: 50px;
+  left: 200px;
+}
