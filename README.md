@@ -1,5 +1,8 @@
 # desafio-Varal-das-aguas
 
+![varaldasaguas](https://user-images.githubusercontent.com/54041918/146683980-6ecb0203-f186-4db1-96d8-58d7f26dde38.gif)
+
+
 Stefanini
 
 ## 🛠 Getting started
